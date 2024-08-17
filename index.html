@@ -1,0 +1,104 @@
+<html>
+<head>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="jexpr.js" type="module"></script>
+    <script src="functions.js" type="module"></script>
+    <script src="math-tools.js" type="module"></script>
+    <script src="datamanager.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <th class="min"></th>
+                <th class="desc">Description</th>
+                <th class="name">Name</th>
+                <th class="formula">Formula</th>
+                <th class="result"><span>Result</span><button class="close-res">&nbsp;&nbsp; ✕ </button></th>
+                <th class="alt-add"><button>+</button></th>
+                <th class="unit">Unit</th>
+                <th class="min"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true"></td>
+                    <td class="name hoverBorder" contenteditable="true"></td>
+                    <td class="formula" tabindex="0"></td>
+                    <td class="result" tabindex="0"></td>
+                    <td class="alt-add"></td>
+                    <td class="unit"></td>
+                    <td class="delete"><span class="material-symbols-outlined"> close </span></td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true">height</td>
+                    <td class="name hoverBorder" contenteditable="true">h</td>
+                    <td class="formula" tabindex="-1"></td>
+                    <td class="result" tabindex="0" contenteditable="true">3.0</td>
+                    <td class="alt-add"></td>
+                    <td class="unit">cm</td>
+                    <td class="delete"> <span class="material-symbols-outlined"> close </span> </td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true">radius</td>
+                    <td class="name hoverBorder" contenteditable="true">rad</td>
+                    <td class="formula" tabindex="-1"></td>
+                    <td class="result" tabindex="0" contenteditable="true">2.5</td>
+                    <td class="alt-add"></td>
+                    <td class="unit">cm</td>
+                    <td class="delete"> <span class="material-symbols-outlined"> close </span> </td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true">volume of cylinder</td>
+                    <td class="name hoverBorder" contenteditable="true">vol</td>
+                    <td class="formula" tabindex="0" contenteditable="true">h*3.14*rad*rad</td>
+                    <td class="result" tabindex="-1"></td>
+                    <td class="alt-add"></td>
+                    <td class="unit">cm</td>
+                    <td class="delete"><span class="material-symbols-outlined"> close </span> </td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true"></td>
+                    <td class="name hoverBorder" contenteditable="true"></td>
+                    <td class="formula" tabindex="0"></td>
+                    <td class="result" tabindex="0"></td>
+                    <td class="alt-add"></td>
+                    <td class="unit"></td>
+                    <td class="delete"><span class="material-symbols-outlined"> close </span></td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true">x unit</td>
+                    <td class="name hoverBorder" contenteditable="true">x</td>
+                    <td class="formula" tabindex="-1"></td>
+                    <td class="result" tabindex="0" contenteditable="true">[1,0,0]</td>
+                    <td class="alt-add"></td>
+                    <td class="unit">cm</td>
+                    <td class="delete"><span class="material-symbols-outlined"> close </span></td>
+                </tr>    
+                <tr>
+                    <td class="handle"><span class="material-symbols-outlined"> menu</span></td>
+                    <td class="desc" contenteditable="true">y unit</td>
+                    <td class="name hoverBorder" contenteditable="true">y</td>
+                    <td class="formula" tabindex="-1"></td>
+                    <td class="result" tabindex="0" contenteditable="true">[0,1,0]</td>
+                    <td class="alt-add"></td>
+                    <td class="unit">cm</td>
+                    <td class="delete"><span class="material-symbols-outlined"> close </span></td>
+                </tr>    
+            </tbody>
+        </table>
+    </div>
+</body>    
+</html>
